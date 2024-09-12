@@ -40,7 +40,7 @@ COPY --from=wkhtmltopdf /bin/wkhtmltoimage /dist/wkhtmltoimage
 COPY --from=wkhtmltopdf /bin/libwkhtmltox* /dist/
 
 # Get ffmpeg source.
-ARG FFMPEG_VERSION=5.1
+ARG FFMPEG_VERSION=7.0
 ARG PREFIX=/opt/ffmpeg
 
 RUN apk add --update \
