@@ -100,6 +100,7 @@ RUN cd /tmp/ffmpeg-${FFMPEG_VERSION} && \
   --enable-librav1e \
   --enable-postproc \
   --enable-libfreetype \
+  --enable-libharfbuzz \
   --enable-openssl \
   --disable-debug \
   --disable-doc \
